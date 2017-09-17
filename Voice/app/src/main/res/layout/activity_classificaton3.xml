@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#d0f2e6"
+    tools:context="com.example.yang.voice.Classification3">
+    <TextView
+        android:layout_marginTop="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我们需要验证你的声音，请按住按钮，贴近手机下方话筒，匀速读出数字"
+        android:textColor="#fb656668"
+        android:textSize="25sp"
+        android:id="@+id/sentence" />
+    <TextView
+        android:layout_marginTop="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fb656668"
+        android:textSize="25sp"
+        android:id="@+id/number3" />
+
+    <com.example.yang.voice.RecordButton
+        android:id="@+id/record_button3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:text="@string/str_recorder_normal"
+        android:background="@drawable/shape"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#c5dfd6"
+        android:text="识别" />
+
+</LinearLayout>

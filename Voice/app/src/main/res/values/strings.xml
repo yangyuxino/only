@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Voice</string>
+    <string name="str_recorder_normal">按住说话</string>
+</resources>

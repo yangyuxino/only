@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yang.voice.Classification2"
+    android:background="#c5dfd6"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/sentence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="请再次按住按钮，贴近手机下方话筒，匀速读出数字"
+        android:textColor="#fb656668"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/number2"
+        android:layout_marginTop="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fb656668"
+        android:textSize="25sp" />
+
+    <com.example.yang.voice.RecordButton
+        android:id="@+id/record_button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:text="@string/str_recorder_normal"
+        android:background="@drawable/shape"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#c5dfd6"
+        android:text="下一步" />
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
